@@ -11,8 +11,7 @@ This journey builds upon the success of the **Python for Everybody** course and 
 
 This course lays the foundation for my Python journey. It covers the basics of programming with **zero prerequisites** and **minimal mathematics**. The goal? To help me build Python programs from scratch with **simple instructions**.
 
-📖 **Textbook Chapters Covered:** 1-5  
-🐍 **Python Version:** Python 3
+📖 **Textbook Chapters Covered:** 1-5
 
 ![Certificate](certificates/Course_01_Certificate.jpg)
 
@@ -22,8 +21,7 @@ This course lays the foundation for my Python journey. It covers the basics of p
 
 Time to level up! This course moves beyond basic procedural programming and explores Python’s **built-in data structures**—lists, dictionaries, and tuples—enabling me to **analyze and manipulate complex data** like a pro.
 
-📖 **Textbook Chapters Covered:** 6-10  
-🐍 **Python Version:** Python 3
+📖 **Textbook Chapters Covered:** 6-10
 
 ---
 
@@ -31,9 +29,7 @@ Time to level up! This course moves beyond basic procedural programming and expl
 
 This course transforms the internet into my playground! I'll learn to **scrape, parse, and read web data**, using Python to interact with **HTML, XML, and JSON** formats. I’ll also work with **web APIs** to retrieve real-world data.
 
-📖 **Textbook Chapters Covered:** 11-13  
-⚠ **Prerequisites:** Mastery of Python basics, control structures, functions, and data structures.  
-🐍 **Python Version:** Python 3
+📖 **Textbook Chapters Covered:** 11-13
 
 ---
 
@@ -41,9 +37,7 @@ This course transforms the internet into my playground! I'll learn to **scrape, 
 
 Here, I dive into **SQL, database design, and data storage** techniques. I'll use **SQLite3** to build databases and even create **web crawlers** to collect data. I'll also explore **D3.js** for **data visualization**.
 
-📖 **Textbook Chapters Covered:** 14-15  
-⚠ **Prerequisites:** Strong foundation in Python programming and web data retrieval.  
-🐍 **Python Version:** Python 3
+📖 **Textbook Chapters Covered:** 14-15
 
 ---
 
@@ -51,8 +45,7 @@ Here, I dive into **SQL, database design, and data storage** techniques. I'll us
 
 This is the ultimate test of everything I've learned! 💡 I'll build **real-world applications** for data retrieval, processing, and visualization. The first phase involves **guided visualizations**, and then I'll work on my **own project** to analyze data that I find interesting.
 
-📖 **Textbook Chapters Covered:** 15-16  
-🐍 **Python Version:** Python 3
+📖 **Textbook Chapters Covered:** 15-16
 
 ---
 
