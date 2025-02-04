@@ -10,15 +10,25 @@ to convert the string to a number. Do not worry about error checking the user
 input unless you want to - you can assume the user types numbers properly.
 Do not name your variable sum or use the sum() function.
 '''
-def computepay(h,r):
-    if h <= 40:
-        pay = h * r
-    if h > 40:
-        pay = (40 * r) + ((h-40) * (r*1.5))
-    return pay
-
 hrs = input("Enter Hours:")
 rate = input("Enter Rate:")
-h = float(hrs)
-r = float(rate)
-print(computepay(h,r))
+try:
+    h = float(hrs)
+    r = float(rate)
+except:
+    print('this is not numbers!')
+    quit()
+
+def computepay(h, r):
+    if h <= 40 :
+        regularPay = h * r
+        overtimePay = 0
+    else :
+        regularPay = (h-(h-40)) * r
+        overtimePay = (h-40) * (1.5*r)
+
+    totalPay = regularPay + overtimePay
+    return totalPay
+
+p = computepay(h, r)
+print("Pay", p)
