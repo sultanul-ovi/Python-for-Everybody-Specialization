@@ -1,0 +1,25 @@
+# Open the file
+filename = "mbox-short.txt"
+try:
+    with open(filename, 'r') as file:
+        counts = {}
+
+        # Process each line
+        for line in file:
+            # Look for lines that start with 'From '
+            if line.startswith("From "):
+                # Split the line into words
+                parts = line.split()
+                # Extract the time part (5th element in the line)
+                time = parts[5]
+                # Split the time into hour, minute, second
+                hour = time.split(':')[0]
+                # Count the occurrences of the hour
+                counts[hour] = counts.get(hour, 0) + 1
+
+        # Sort the dictionary by hour and print the results
+        for hour, count in sorted(counts.items()):
+            print(hour, count)
+
+except FileNotFoundError:
+    print(f"Error: The file '{filename}' was not found.")
