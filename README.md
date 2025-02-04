@@ -14,6 +14,8 @@ This course lays the foundation for my Python journey. It covers the basics of p
 📖 **Textbook Chapters Covered:** 1-5  
 🐍 **Python Version:** Python 3
 
+![Certificate](certificates/Course_01_Certificate.jpg)
+
 ---
 
 ### 2️⃣ Python Data Structures 🔗
