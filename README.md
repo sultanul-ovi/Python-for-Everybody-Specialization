@@ -8,7 +8,6 @@ This journey builds upon the success of the **Python for Everybody** course and 
 ## 📚 Courses in This Specialization
 
 ### 1️⃣ Programming for Everybody (Getting Started with Python) 🏁  
-**✅ 7 Modules**  
 This course lays the foundation for my Python journey. It covers the basics of programming with **zero prerequisites** and **minimal mathematics**. The goal? To help me build Python programs from scratch with **simple instructions**.  
 
 📖 **Textbook Chapters Covered:** 1-5  
@@ -17,7 +16,6 @@ This course lays the foundation for my Python journey. It covers the basics of p
 ---
 
 ### 2️⃣ Python Data Structures 🔗  
-**✅ 7 Modules**  
 Time to level up! This course moves beyond basic procedural programming and explores Python’s **built-in data structures**—lists, dictionaries, and tuples—enabling me to **analyze and manipulate complex data** like a pro.  
 
 📖 **Textbook Chapters Covered:** 6-10  
@@ -44,7 +42,6 @@ Here, I dive into **SQL, database design, and data storage** techniques. I'll us
 ---
 
 ### 5️⃣ Capstone: Retrieving, Processing, and Visualizing Data 📊  
-**✅ 7 Modules**  
 This is the ultimate test of everything I've learned! 💡 I'll build **real-world applications** for data retrieval, processing, and visualization. The first phase involves **guided visualizations**, and then I'll work on my **own project** to analyze data that I find interesting.  
 
 📖 **Textbook Chapters Covered:** 15-16  
