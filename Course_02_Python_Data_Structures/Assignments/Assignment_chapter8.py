@@ -6,17 +6,25 @@ in the list and if not append it to the list. When the program completes, sort
 and print the resulting words in alphabetical order.
 You can download the sample data at http://www.py4e.com/code3/romeo.txt
 '''
-fname = input("Enter file name: ")
-fh = open(fname)
+# Use the file name romeo.txt as the file name
+fname = input('Enter file name: ')
+try:
+    fh = open(fname)
+except:
+    print('Invalid file name')
+    quit()
+    
 lst = list()
 for line in fh:
-    words= line.split()
-    for word in words:
-        if word in lst:
-            continue
-        lst.append(word)
+    line = line.rstrip()  
+    words = line.split()    
 
-print(sorted(lst))
+    for w in words:
+        if w not in lst:
+            lst.append(w)
+
+lst.sort()
+print(lst)
 
 
 '''
