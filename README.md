@@ -23,6 +23,8 @@ Time to level up! This course moves beyond basic procedural programming and expl
 
 📖 **Textbook Chapters Covered:** 6-10
 
+![Certificate](certificates/Course_02_Certificate.jpg)
+
 ---
 
 ### 3️⃣ Using Python to Access Web Data 🌍
