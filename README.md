@@ -49,6 +49,9 @@ This course transforms the internet into my playground! I'll learn to **scrape, 
 - Chapter 12: Networked programs
 - Chapter 13: Using Web Services
 
+
+![Certificate](certificates/Course_03_Certificate.jpg)
+
 ---
 
 ### 4️⃣ Using Databases with Python 🗄️
