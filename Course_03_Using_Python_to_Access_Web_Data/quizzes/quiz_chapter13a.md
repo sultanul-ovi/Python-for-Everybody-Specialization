@@ -1,4 +1,4 @@
-** 1. What is the name of the Python 2.x library to parse XML data?**
+**1. What is the name of the Python 2.x library to parse XML data?**
 
     1) xml2
     2) xml.etree.ElementTree
@@ -7,7 +7,7 @@
 
 _Answer is 2) xml.etree.ElementTree_
 
-** 2. Which of the following are not commonly used serialization formats?**
+**2. Which of the following are not commonly used serialization formats?**
 
     1) TCP
     2) XML
@@ -17,7 +17,7 @@ _Answer is 2) xml.etree.ElementTree_
 
 _Answer is 1) TCP, 4) Dictionaries, 5) HTTP_
 
-** 3. In this XML, which are the "complex elements"?**
+**3. In this XML, which are the "complex elements"?**
 ```XML
 <people>
     <person>
@@ -38,7 +38,7 @@ _Answer is 1) TCP, 4) Dictionaries, 5) HTTP_
 
 _Answer is 2) people, 3) person_
 
-** 4. In the following XML, which are attributes?**
+**4. In the following XML, which are attributes?**
 ```XML
 <person>
   <name>Chuck</name>
@@ -56,7 +56,7 @@ _Answer is 2) people, 3) person_
 
 _Answer is 1) hide, 5) type_
 
-** 5. In the following XML, which node is the parent node of node e**
+**5. In the following XML, which node is the parent node of node e**
 ```XML
 <a>
   <b>X</b>
@@ -73,7 +73,7 @@ _Answer is 1) hide, 5) type_
 
 _Answer is 4) c_
 
-** 6. Looking at the following XML, what text value would we find at path "/a/c/e"**
+**6. Looking at the following XML, what text value would we find at path "/a/c/e"**
 ```XML
 <a>
   <b>X</b>
@@ -91,7 +91,7 @@ _Answer is 4) c_
 
 _Answer is 2) Z_
 
-** 7. What is the purpose of XML Schema?**
+**7. What is the purpose of XML Schema?**
 
     1) To compute SHA1 checksums on data to make sure it is not modified in transit
     2) To establish a contract as to what is valid XML
@@ -100,7 +100,7 @@ _Answer is 2) Z_
 
 _Answer is 2) To establish a contract as to what is valid XML_
 
-** 8. If you were building an XML Schema and wanted to limit the values allowed in an xs:string field to only those in a particular list, what XML tag would you use in your XML Schema definition? **
+**8. If you were building an XML Schema and wanted to limit the values allowed in an xs:string field to only those in a particular list, what XML tag would you use in your XML Schema definition? **
 
     1) xs:sequence
     2) xs:enumeration
@@ -110,7 +110,7 @@ _Answer is 2) To establish a contract as to what is valid XML_
 
 _Answer is 2) xs:enumeration_
 
-** 9. What does the "Z" mean in this representation of a time:**
+**9. What does the "Z" mean in this representation of a time:**
 ``` 2002-05-30T09:30:10Z ```
 
     1) This time is in the UTC timezone
@@ -120,7 +120,7 @@ _Answer is 2) xs:enumeration_
 
 _Answer is 1) This time is in the UTC timezone_
 
-** 10. Which of the following dates is in ISO8601 format?**
+**10. Which of the following dates is in ISO8601 format?**
 
     1) May 30, 2002
     2) 05/30/2002
