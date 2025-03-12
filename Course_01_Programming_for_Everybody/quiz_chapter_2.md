@@ -1,7 +1,9 @@
 ** 1- In the following code, **
+
 ```Python
  print (98.6)
 ```
+
 ** What is "98.6"? **
 
     1) A conditional statement
@@ -12,6 +14,7 @@
 _Answer is 3) A constant_
 
 ** 2- What does the following code print out? **
+
 ```Python
  print ("123"+"abc")
 ```
@@ -43,9 +46,11 @@ _Answer is 1) iterate_
 
 ** 5- Assume the variable x has been initialized to an integer value (e.g., x = 3). **
 ** What does the following statement do? **
+
 ```Python
  x = x + 2
 ```
+
     1) Retrieve the current value for x, add two to it and put the sum back into x
     2) This would fail as it is a syntax error
     3) Exit the program
@@ -63,10 +68,12 @@ _Answer is 1) Retrieve the current value for x, add two to it and put the sum ba
 _Answer is 4) Parentheses ( )_
 
 ** 7- What is the value of the following expression **
+
 ```Python
  42 % 10
 ```
-*Hint - the "%" is the remainder operator*
+
+_Hint - the "%" is the remainder operator_
 
     1) 4210
     2) 10
@@ -76,9 +83,11 @@ _Answer is 4) Parentheses ( )_
 _Answer is 4) 2_
 
 ** 8- What will be the value of x after the following statement executes: **
+
 ```Python
  x = 1 + 2 * 3 - 8 / 4
 ```
+
     1) 2
     2) 1.0
     3) 3
@@ -87,9 +96,11 @@ _Answer is 4) 2_
 _Answer is 4) 5.0_
 
 ** 9- What will be the value of x when the following statement is executed:**
+
 ```Python
 x = int(98.6)
 ```
+
     1) 99
     2) 6
     3) 100

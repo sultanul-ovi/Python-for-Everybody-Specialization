@@ -19,6 +19,7 @@ _Answer is 4) Indent the line below the if statement _
 _Answer is 3) =_
 
 ** 3- What is true about the following code segment: **
+
 ```Python
 if  x == 5 :
     print('Is 5')
@@ -42,14 +43,15 @@ _Answer is 1) Depending on the value of x, either all three of the print stateme
 
 _Answer is 3) You de-indent the next line past the if block to the same level of indent as the original if statement_
 
-
 ** 5- You look at the following text: **
+
 ```Python
 if x == 6 :
     print('Is 6')
     print('Is Still 6')
     print('Third 6')
 ```
+
 _It looks perfect but Python is giving you an 'Indentation Error' on the second print statement. What is the most likely reason?_
 
     1) In order to make humans feel inadequate, Python randomly emits 'Indentation Errors' on perfectly good code - after about an hour the error will just go away without any changes to your program
@@ -58,7 +60,6 @@ _It looks perfect but Python is giving you an 'Indentation Error' on the second 
     4) Python has reached its limit on the largest Python program that can be run
 
 _Answer is 2) You have mixed tabs and spaces in the file_
-
 
 ** 6- What is the Python reserved word that we use in two-way if tests to indicate the block of code that is to be executed if the logical test is false? **
 
@@ -69,8 +70,8 @@ _Answer is 2) You have mixed tabs and spaces in the file_
 
 _Answer is 1) else_
 
-
 ** 7- What will the following code print out? **
+
 ```Python
 x = 0
 if x < 2 :
@@ -94,8 +95,8 @@ print('All done')
 
 _Answer is 4) Small All done_
 
-
 ** 8- For the following code, **
+
 ```Python
 if x < 2 :
     print('Below 2')
@@ -104,6 +105,7 @@ elif x >= 2 :
 else :
     print('Something else')
 ```
+
 _What value of 'x' will cause 'Something else' to print out?_
 
     1) This code will never print 'Something else' regardless of the value for 'x'
@@ -114,6 +116,7 @@ _What value of 'x' will cause 'Something else' to print out?_
 _Answer is 1) This code will never print 'Something else' regardless of the value for 'x'_
 
 ** 9- In the following code (numbers added) - which will be the last line to execute successfully? **
+
 ```Python
 (1)   astr = 'Hello Bob'
 (2)   istr = int(astr)
@@ -122,6 +125,7 @@ _Answer is 1) This code will never print 'Something else' regardless of the valu
 (5)   istr = int(astr)
 (6)   print('Second', istr)
 ```
+
     1) 1
     2) 2
     3) 6
@@ -129,8 +133,8 @@ _Answer is 1) This code will never print 'Something else' regardless of the valu
 
 _Answer is 1) 1_
 
-
 ** 10- For the following code: **
+
 ```Python
 astr = 'Hello Bob'
 istr = 0
@@ -139,6 +143,7 @@ try:
 except:
     istr = -1
 ```
+
 _What will the value be for istr after this code executes?_
 
     1) 0

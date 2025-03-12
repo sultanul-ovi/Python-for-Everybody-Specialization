@@ -26,6 +26,7 @@ _Answer is 2)You de-indent a line of code to the same indent level as the def ke
 _Answer is 2) A built-in function_
 
 ** 4- What does the following code print out?**
+
 ```Python
 def thing():
     print('Hello')
@@ -50,6 +51,7 @@ x = 'banana'
 y = max(x)
 z = y * 2
 ```
+
     1) x
     2) max
     3) 'banana'
@@ -58,6 +60,7 @@ z = y * 2
 _Answer is 1) x_
 
 ** 6- What will the following Python code print out?**
+
 ```Python
 def func(x) :
     print(x)
@@ -65,6 +68,7 @@ def func(x) :
 func(10)
 func(20)
 ```
+
     1) 10
        20
     2) x
@@ -79,6 +83,7 @@ func(20)
 _Answer is 1) 10 20_
 
 ** 7- Which line of the following Python program will never execute?**
+
 ```Python
 def stuff():
     print('Hello')
@@ -87,6 +92,7 @@ def stuff():
 
 stuff()
 ```
+
     1) print ('World')
     2) print('Hello')
     3) stuff()
@@ -96,6 +102,7 @@ stuff()
 _Answer is 1) print ('World')_
 
 ** 8- What will the following Python program print out?**
+
 ```Python
 def greet(lang):
     if lang == 'es':
@@ -107,6 +114,7 @@ def greet(lang):
 
 print(greet('fr'),'Michael')
 ```
+
     1) Bonjour Michael
     2) def
        Hola
@@ -122,6 +130,7 @@ print(greet('fr'),'Michael')
 _Answer is 1) Bonjour Michael_
 
 ** 9- What does the following Python code print out? (Note that this is a bit of a trick question and the code has what many would consider to be a flaw/bug - so read carefully). **
+
 ```Python
 def addtwo(a, b):
     added = a + b
@@ -130,6 +139,7 @@ def addtwo(a, b):
 x = addtwo(2, 7)
 print(x)
 ```
+
     1) 2
     2) 7
     3) 9
