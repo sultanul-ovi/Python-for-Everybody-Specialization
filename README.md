@@ -49,7 +49,6 @@ This course transforms the internet into my playground! I'll learn to **scrape, 
 - Chapter 12: Networked programs
 - Chapter 13: Using Web Services
 
-
 ![Certificate](certificates/Course_03_Certificate.jpg)
 
 ---
@@ -58,7 +57,13 @@ This course transforms the internet into my playground! I'll learn to **scrape, 
 
 Here, I dive into **SQL, database design, and data storage** techniques. I'll use **SQLite3** to build databases and even create **web crawlers** to collect data. I'll also explore **D3.js** for **data visualization**.
 
-📖 **Textbook Chapters Covered:** 14-15
+📖 **Textbook Chapters Covered:** 14-16
+
+- Chapter 14: Object-oriented programming
+- Chapter 15: Using Databases and SQL
+- Chapter 16: Visualizing data
+
+![Certificate](certificates/Course_04_Certificate.jpg)
 
 ---
 
@@ -67,6 +72,11 @@ Here, I dive into **SQL, database design, and data storage** techniques. I'll us
 This is the ultimate test of everything I've learned! 💡 I'll build **real-world applications** for data retrieval, processing, and visualization. The first phase involves **guided visualizations**, and then I'll work on my **own project** to analyze data that I find interesting.
 
 📖 **Textbook Chapters Covered:** 15-16
+
+- Chapter 15: Using Databases and SQL
+- Chapter 16: Visualizing data
+
+![Certificate](certificates/Course_05_Certificate.jpg)
 
 ---
 

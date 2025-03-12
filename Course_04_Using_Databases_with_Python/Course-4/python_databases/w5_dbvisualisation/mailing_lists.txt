@@ -1,6 +1,0 @@
-Mailing Lists
-    1. Crawl archive of mailing list
-    2. Analyse and clean-up
-    3. Visualise data
-
-
