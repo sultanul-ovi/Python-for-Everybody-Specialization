@@ -1,4 +1,4 @@
-# Python For Everybody-Coursera
+# Python For Everybody Coursera
 
 This course is part of the Python for Everybody Specialization
 
