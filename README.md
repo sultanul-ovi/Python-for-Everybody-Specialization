@@ -45,6 +45,10 @@ This course transforms the internet into my playground! I'll learn to **scrape, 
 
 📖 **Textbook Chapters Covered:** 11-13
 
+- Chapter 11: Regular expressions
+- Chapter 12: Networked programs
+- Chapter 13: Using Web Services
+
 ---
 
 ### 4️⃣ Using Databases with Python 🗄️
