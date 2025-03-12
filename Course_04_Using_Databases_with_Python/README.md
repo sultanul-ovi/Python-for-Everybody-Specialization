@@ -32,4 +32,3 @@ This course will introduce students to the basics of the Structured Query Langua
 ## Reference
 > [Coursera](https://www.coursera.org/learn/python-databases?specialization=python)
 
-> [Achievement Certificate](https://github.com/elizabethygonz/Python-for-everybody/blob/main/Certificate-PY4E-4.pdf)
