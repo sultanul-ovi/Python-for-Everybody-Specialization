@@ -1,4 +1,4 @@
-** 1- What is wrong with this Python loop:**
+**1- What is wrong with this Python loop:**
 
 ```Python
 n = 5
@@ -14,7 +14,7 @@ print('All done')
 
 _Answer is 1) This loop will run forever_
 
-** 2- What does the break statement do?**
+**2- What does the break statement do?**
 
     1) Jumps to the "top" of the loop and starts the next iteration
     2) Exits the currently executing loop
@@ -23,7 +23,7 @@ _Answer is 1) This loop will run forever_
 
 _Answer is 2) Exits the currently executing loop_
 
-** 3- What does the continue statement do? **
+**3- What does the continue statement do?**
 
     1) Resets the iteration variable to its initial value
     2) Jumps to the "top" of the loop and starts the next iteration
@@ -32,7 +32,7 @@ _Answer is 2) Exits the currently executing loop_
 
 _Answer is 2) Jumps to the "top" of the loop and starts the next iteration_
 
-** 4- What does the following Python program print out?**
+**4- What does the following Python program print out?**
 
 ```Python
 tot = 0
@@ -48,7 +48,7 @@ print(tot)
 
 _Answer is 4) 5_
 
-** 5- What is the iteration variable in the following Python code:**
+**5- What is the iteration variable in the following Python code:**
 
 ```Python
 friends = ['Joseph', 'Glenn', 'Sally']
@@ -64,7 +64,7 @@ print('Done!')
 
 _Answer is 1) friend_
 
-** 6- What is a good description of the following bit of Python code?**
+**6- What is a good description of the following bit of Python code?**
 
 ```Python
 zork = 0
@@ -80,7 +80,7 @@ print('After', zork)
 
 _Answer is 4) Sum all the elements of a list_
 
-** 7- What will the following code print out?**
+**7- What will the following code print out?**
 
 ```Python
 smallest_so_far = -1
@@ -99,7 +99,7 @@ _Hint: This is a trick question and most would say this code has a bug - so read
 
 _Answer is 1) -1_
 
-** 8- What is a good statement to describe the is operator as used in the following if statement:**
+**8- What is a good statement to describe the is operator as used in the following if statement:**
 
 ```Python
 if smallest is None :
@@ -113,7 +113,7 @@ if smallest is None :
 
 _Answer is 1) matches both type and value_
 
-** 9- Which reserved word indicates the start of an "indefinite" loop in Python?**
+**9- Which reserved word indicates the start of an "indefinite" loop in Python?**
 
      1) def
      2) while
@@ -123,7 +123,7 @@ _Answer is 1) matches both type and value_
 
 _Answer is 2) while_
 
-** 10- How many times will the body of the following loop be executed?**
+**10- How many times will the body of the following loop be executed?**
 
 ```Python
 n = 0
