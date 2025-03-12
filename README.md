@@ -3,8 +3,7 @@
 Welcome to my **Python for Everybody Specialization** repository! 🎉  
 This journey builds upon the success of the **Python for Everybody** course and dives deep into fundamental programming concepts using Python. By the end of this specialization, I'll have mastered **data structures, networked application programming interfaces (APIs), and databases**, culminating in a **Capstone Project** where I'll design and develop my own applications for **data retrieval, processing, and visualization**. 🚀
 
-Course Link: [Python for Everybody Specialization](https://www.coursera.org/specializations/python)
----
+## Course Link: [Python for Everybody Specialization](https://www.coursera.org/specializations/python)
 
 ## 📚 Courses in This Specialization
 
@@ -12,7 +11,13 @@ Course Link: [Python for Everybody Specialization](https://www.coursera.org/spec
 
 This course lays the foundation for my Python journey. It covers the basics of programming with **zero prerequisites** and **minimal mathematics**. The goal? To help me build Python programs from scratch with **simple instructions**.
 
-📖 **Textbook Chapters Covered:** 1-5
+📖 **Textbook Chapters Covered:** 01-05
+
+- Chapter 01: Introduction
+- Chapter 02: Expression
+- Chapter 03: Conditional Statements
+- Chapter 04: Functions
+- Chapter 05: Loops
 
 ![Certificate](certificates/Course_01_Certificate.jpg)
 
@@ -22,7 +27,13 @@ This course lays the foundation for my Python journey. It covers the basics of p
 
 Time to level up! This course moves beyond basic procedural programming and explores Python’s **built-in data structures**—lists, dictionaries, and tuples—enabling me to **analyze and manipulate complex data** like a pro.
 
-📖 **Textbook Chapters Covered:** 6-10
+📖 **Textbook Chapters Covered:** 06-10
+
+- Chapter 06: Stings
+- Chapter 07: Files
+- Chapter 08: Lists
+- Chapter 09: Dictionaries
+- Chapter 10: Tuples
 
 ![Certificate](certificates/Course_02_Certificate.jpg)
 
