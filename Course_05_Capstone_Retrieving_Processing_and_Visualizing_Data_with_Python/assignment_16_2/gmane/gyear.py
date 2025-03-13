@@ -1,5 +1,6 @@
 import sqlite3
 import time
+import urllib.request, urllib.parse, urllib.error
 import zlib
 
 conn = sqlite3.connect('index.sqlite')
@@ -28,8 +29,9 @@ for (message_id, message) in list(messages.items()):
 # pick the top schools
 orgs = sorted(sendorgs, key=sendorgs.get, reverse=True)
 orgs = orgs[:10]
-print("Top 10 Organizations")
+print("Top 10 Oranizations")
 print(orgs)
+# orgs = ['total'] + orgs
 
 counts = dict()
 months = list()
@@ -40,22 +42,24 @@ for (message_id, message) in list(messages.items()):
     if len(pieces) != 2 : continue
     dns = pieces[1]
     if dns not in orgs : continue
-    month = message[3][:7]
+    month = message[3][:4]
     if month not in months : months.append(month)
     key = (month, dns)
     counts[key] = counts.get(key,0) + 1
-
+    tkey = (month, 'total')
+    counts[tkey] = counts.get(tkey,0) + 1
+    
 months.sort()
 # print counts
 # print months
 
 fhand = open('gline.js','w')
-fhand.write("gline = [ ['Month'")
+fhand.write("gline = [ ['Year'")
 for org in orgs:
     fhand.write(",'"+org+"'")
 fhand.write("]")
 
-for month in months:
+for month in months[1:-1]:
     fhand.write(",\n['"+month+"'")
     for org in orgs:
         key = (month, org)
@@ -68,3 +72,4 @@ fhand.close()
 
 print("Output written to gline.js")
 print("Open gline.htm to visualize the data")
+
