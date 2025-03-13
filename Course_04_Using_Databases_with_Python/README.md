@@ -56,7 +56,7 @@ In this notebook, we will cover:
 
 ```python
 class Car:
-def **init**(self, brand, model, year):
+def __init__(self, brand, model, year):
 self.brand = brand
 self.model = model
 self.year = year
@@ -172,7 +172,7 @@ Inheritance allows a class (child) to inherit attributes and methods from anothe
 # Parent class
 
 class Animal:
-def **init**(self, name):
+def __init__(self, name):
 self.name = name
 
     def speak(self):
@@ -203,7 +203,7 @@ Encapsulation restricts direct access to variables, using private variables (`__
 
 ```python
 class BankAccount:
-def **init**(self, balance):
+def __init__(self, balance):
 self.\_\_balance = balance # Private variable
 
     def deposit(self, amount):
