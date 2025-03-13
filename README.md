@@ -19,7 +19,7 @@ This course lays the foundation for my Python journey. It covers the basics of p
 - Chapter 04: Functions
 - Chapter 05: Loops
 
-![Certificate](certificates/Course_01_Certificate.jpg)
+![Certificate](docs/certificates/Course_01_Certificate.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ Time to level up! This course moves beyond basic procedural programming and expl
 - Chapter 09: Dictionaries
 - Chapter 10: Tuples
 
-![Certificate](certificates/Course_02_Certificate.jpg)
+![Certificate](docs/certificates/Course_02_Certificate.jpg)
 
 ---
 
@@ -49,7 +49,7 @@ This course transforms the internet into my playground! I'll learn to **scrape, 
 - Chapter 12: Networked programs
 - Chapter 13: Using Web Services
 
-![Certificate](certificates/Course_03_Certificate.jpg)
+![Certificate](docs/certificates/Course_03_Certificate.jpg)
 
 ---
 
@@ -63,7 +63,7 @@ Here, I dive into **SQL, database design, and data storage** techniques. I'll us
 - Chapter 15: Using Databases and SQL
 - Chapter 16: Visualizing data
 
-![Certificate](certificates/Course_04_Certificate.jpg)
+![Certificate](docs/certificates/Course_04_Certificate.jpg)
 
 ---
 
@@ -76,7 +76,7 @@ This is the ultimate test of everything I've learned! 💡 I'll build **real-wor
 - Chapter 15: Using Databases and SQL
 - Chapter 16: Visualizing data
 
-![Certificate](certificates/Course_05_Certificate.jpg)
+![Certificate](docs/certificates/Course_05_Certificate.jpg)
 
 ---
 
