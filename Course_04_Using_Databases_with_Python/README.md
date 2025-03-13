@@ -1,4 +1,4 @@
-# Python For Everybody-Coursera
+# Python For Everybody Coursera
 
 This course is part of the Python for Everybody Specialization
 
@@ -44,6 +44,7 @@ This course will introduce students to the basics of the Structured Query Langua
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects." These objects can contain data in the form of fields (attributes) and code in the form of methods (functions). Python supports OOP and provides features like class inheritance, encapsulation, and polymorphism.
 
 In this notebook, we will cover:
+
 - Classes and Objects
 - Constructors and Instance Variables
 - Methods in Classes
@@ -51,20 +52,22 @@ In this notebook, we will cover:
 - Encapsulation
 - Polymorphism
 
-
 # Defining a simple class
+
+```python
 class Car:
-    def __init__(self, brand, model, year):
-        self.brand = brand
-        self.model = model
-        self.year = year
+def **init**(self, brand, model, year):
+self.brand = brand
+self.model = model
+self.year = year
 
     def display_info(self):
         return f"{self.year} {self.brand} {self.model}"
-
 # Creating an object of the class
+
 car1 = Car("Toyota", "Camry", 2022)
 print(car1.display_info())
+```
 
 ## Classes and Objects
 
@@ -73,26 +76,31 @@ A **class** is a blueprint for creating objects. It defines attributes (variable
 An **object** is an instance of a class, with its own set of attributes.
 
 In the example above:
+
 - The `Car` class has attributes: `brand`, `model`, and `year`
 - The `__init__` method initializes these attributes
 - The `display_info` method prints car details
 - We created an instance `car1` with values
 
+```python
 # Creating multiple instances of the Car class
+
 car2 = Car("Honda", "Civic", 2021)
 car3 = Car("Ford", "Mustang", 2023)
 
 # Displaying information for each car
+
 print(car2.display_info())
 print(car3.display_info())
+```
 
 ## Instance and Class Variables
 
 Instance variables belong to an instance (object), while class variables are shared across all instances.
 
-class Car:
-    # Class variable
-    wheels = 4
+```python
+class Car: # Class variable
+wheels = 4
 
     def __init__(self, brand, model):
         # Instance variables
@@ -103,6 +111,7 @@ class Car:
         return f"{self.brand} {self.model} with {Car.wheels} wheels"
 
 # Creating objects
+
 car1 = Car("Tesla", "Model 3")
 car2 = Car("BMW", "X5")
 
@@ -110,19 +119,23 @@ print(car1.display_info())
 print(car2.display_info())
 
 # Changing class variable affects all instances
+
 Car.wheels = 6
 print(car1.display_info())
 print(car2.display_info())
+```
 
 ## Methods in Classes
 
 There are three types of methods in Python classes:
+
 - **Instance Methods**: Operate on instance variables.
 - **Class Methods**: Operate on class variables (use `@classmethod`).
 - **Static Methods**: Do not modify class or instance variables (use `@staticmethod`).
 
+```python
 class Example:
-    class_variable = "I am a class variable"
+class_variable = "I am a class variable"
 
     def __init__(self, instance_variable):
         self.instance_variable = instance_variable
@@ -142,47 +155,56 @@ class Example:
         return "I am a static method"
 
 # Creating an object
+
 obj = Example("Instance Value")
 
-print(obj.instance_method())  # Access instance variable
-print(Example.class_method())  # Access class variable
-print(Example.static_method())  # Call static method
+print(obj.instance_method()) # Access instance variable
+print(Example.class_method()) # Access class variable
+print(Example.static_method()) # Call static method
+
+```
 
 ## Inheritance
 
 Inheritance allows a class (child) to inherit attributes and methods from another class (parent).
 
+```python
 # Parent class
+
 class Animal:
-    def __init__(self, name):
-        self.name = name
+def **init**(self, name):
+self.name = name
 
     def speak(self):
         return "I make sounds"
 
 # Child class inheriting from Animal
+
 class Dog(Animal):
-    def speak(self):
-        return "Woof! Woof!"
+def speak(self):
+return "Woof! Woof!"
 
 class Cat(Animal):
-    def speak(self):
-        return "Meow!"
+def speak(self):
+return "Meow!"
 
 # Creating objects
+
 dog = Dog("Buddy")
 cat = Cat("Whiskers")
 
 print(f"{dog.name} says: {dog.speak()}")
 print(f"{cat.name} says: {cat.speak()}")
+```
 
 ## Encapsulation
 
 Encapsulation restricts direct access to variables, using private variables (`__variable`) and getter/setter methods.
 
+```python
 class BankAccount:
-    def __init__(self, balance):
-        self.__balance = balance  # Private variable
+def **init**(self, balance):
+self.\_\_balance = balance # Private variable
 
     def deposit(self, amount):
         self.__balance += amount
@@ -198,43 +220,49 @@ class BankAccount:
         return f"Current balance: {self.__balance}"
 
 # Creating an account
+
 account = BankAccount(1000)
 
 print(account.deposit(500))
 print(account.withdraw(300))
 print(account.get_balance())
 
-# print(account.__balance)  # This would raise an AttributeError (private variable)
+# print(account.\_\_balance) # This would raise an AttributeError (private variable)
+```
 
 ## Polymorphism
 
 Polymorphism allows different classes to share the same method name but implement it differently.
 
+```python
 class Bird:
-    def fly(self):
-        return "Some birds can fly"
+def fly(self):
+return "Some birds can fly"
 
 class Sparrow(Bird):
-    def fly(self):
-        return "Sparrows can fly"
+def fly(self):
+return "Sparrows can fly"
 
 class Penguin(Bird):
-    def fly(self):
-        return "Penguins cannot fly"
+def fly(self):
+return "Penguins cannot fly"
 
 # Polymorphism example
+
 def flying_ability(bird):
-    print(bird.fly())
+print(bird.fly())
 
 sparrow = Sparrow()
 penguin = Penguin()
 
 flying_ability(sparrow)
 flying_ability(penguin)
+```
 
 ## Conclusion
 
 Object-Oriented Programming (OOP) in Python provides:
+
 - **Encapsulation**: Restrict access to private variables.
 - **Inheritance**: Allow reuse of parent class properties.
 - **Polymorphism**: Enable different implementations of the same method.
